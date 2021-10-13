@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(14, 14, 54, 0.911);
+    background-image : radial-gradient(circle at 100%, rgba(9, 10, 63, 0.685), rgb(214, 206, 157) 50%, rgb(255, 174, 0) 75%, rgb(16, 8, 54) 75%);
+    background-repeat: no-repeat;
+}
+*, :after, :before 
+{
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#nav{
+
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    background-color: #92a2ff50;
+    border-color: #f8f6f671;
+    border: solid;
+    width: 101%;
+    height: 82px;
+    transition: .5s ease;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0);}
+
+    #nav:hover{
+        background-color: rgb(0, 0, 0);
+        border-color: rgba(0, 0, 0, 0.315);
+        opacity: 1; 
+        }
+
+        #name{
+            
+            font-size: 20px;
+            margin-right: 54%;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            z-index: 1;
+            text-shadow: 2px 2px 0px white, 2px 2px 2px cyan ;
+            }
+
+            #nav ul{
+                display: flex;
+                position: relative;
+                line-height: 1;
+                margin: 0;
+                list-style-type: none;
+                opacity: 1;
+            }
+            #nav ul:hover{
+                    color:white;
+            }
+            #nav ul li {
+                  
+                font-family: 'Chakra Petch';
+                    letter-spacing: 3px;
+                    font-size: 19px;
+                    padding: 2rem 6rem;
+                    font-weight: bold;
+            }
+            
+            #nav ul li a{
+                color: white;
+            }
+            
+            #nav ul li a:focus{
+                color: white;
+            }
+
+            #nav ul li a:hover{
+                color: rgb(243, 243, 247);
+                text-shadow: 2px 2px 1px #3904fa, 3px 3px 0px rgb(255, 0, 0);
+                transition:ease-in;
+            }
+            
+            
+            li:hover {
+                cursor: pointer;
+                }  
+            
+                .-align-right {
+                    text-align: right;
+                }
+
+     #SNS{
+        display: flex;
+    background-color: rgb(20 20 60 / 21%);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 300px;
+                }
+     #society-card{
+        display: flex;
+    background-color: rgb(20 20 60 / 21%);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 175px;
+                }
+     #SNS-Contact{
+        display: flex;
+        background-color: rgb(222 222 237 / 49%);
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 175px;
+    
+                }
+
+    .box3{
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 3rem;
+        font-size: 27px;
+        text-decoration: none;
+        text-align: center;
+        justify-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+            
+            }
+    .contact-box{
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 3rem;
+            font-size: 18px;
+            text-align: center;
+            justify-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            width: auto;
+        }
+            #container{
+                margin-top: 4rem;
+               display: flex;
+               flex-direction: row;
+               justify-content: flex-end;
+               align-items: baseline;
+            }
+
+            .card {
+              width: 21rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    padding: 5rem;
+    border-radius: 9rem;
+    background-color: #ffffff75;
+
+            }
+              
+             
+              .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+              }
+              
+             
+              .container1 {
+                  text-align: center;
+                padding: 2px 16px;
+              }
+
+
+              #sns-box{
+                font-weight: bolder;
+                position: fixed;
+                margin-left: 2rem;
+                font-size: 33px;
+                font-family: 'Jost', sans-serif;
+                color: rgb(34 11 163);
+                text-shadow: 2px 2px 0px white, 6px 4px 4px #ffc800;
+                }
+              
+                #contact{
+                font-weight: bolder;
+                position: fixed;
+                margin-left: -52rem;
+                font-size: 40px;
+                font-family: 'Jost', sans-serif;
+                color: rgb(43 26 138);
+                text-shadow: 2px 2px 0px white, 6px 4px 4px #ffc800;
+                }
+                
+                #name2{
+                font-weight: bolder;
+                position: fixed;
+                margin-left: 2rem;
+                font-size: 33px;
+                font-family: 'Jost', sans-serif;
+                color: rgb(34 11 163);
+                text-shadow: 2px 2px 0px white, 6px 4px 4px #ffc800;
+                z-index: 1;
+                }
+                #a{
+                  font-weight: bolder;
+                  font-size: 33px;
+                  font-family: 'Jost', sans-serif;
+                  color: blueviolet;
+                  text-shadow: 2px 2px 0px white, 6px 4px 4px #ffc800;
+                }
+
+                .icon{
+                    width: 3vw;
+                    z-index: 1;
+                    border-radius: 10em;
+                }
+
+                .worknav{
+                    margin-top: 0rem;
+                }
+
+                .fa {
+                    margin-left: 1rem;
+                    width: 94px;
+                    padding: 2rem;
+                    text-align: center;
+                    text-decoration: none;
+
+                  }
+                  
+                  .fa:hover {
+                    opacity: 0.7;
+                  }
+                
+                  .fa-facebook {
+                    background: #3B5998;
+                    color: white;
+                  }
+                
+                  .fa-twitter {
+                    background: #55ACEE;
+                    color: white;
+                  }
+
+                  .fa-linkedin {
+                    background: #03070a;
+                    color: white;
+                  }
+                
+                  .fa-instagram {
+                    background: #1e4183;
+                    color: white;
+                  }
+                   
